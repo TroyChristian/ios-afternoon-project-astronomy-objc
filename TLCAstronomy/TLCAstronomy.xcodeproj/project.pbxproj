@@ -7,18 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FB63C43B24072CFE00826AD6 /* TLCMarsSol.m in Sources */ = {isa = PBXBuildFile; fileRef = FB63C43A24072CFE00826AD6 /* TLCMarsSol.m */; };
+		FB63C43E24072D5200826AD6 /* TLCMarsCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = FB63C43D24072D5200826AD6 /* TLCMarsCamera.m */; };
 		FB685CED24046DAE00D23C03 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB685CEC24046DAE00D23C03 /* AppDelegate.swift */; };
 		FB685CEF24046DAE00D23C03 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB685CEE24046DAE00D23C03 /* SceneDelegate.swift */; };
 		FB685CF124046DAE00D23C03 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB685CF024046DAE00D23C03 /* ViewController.swift */; };
 		FB685CF424046DAE00D23C03 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB685CF224046DAE00D23C03 /* Main.storyboard */; };
 		FB685CF624046DAF00D23C03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB685CF524046DAF00D23C03 /* Assets.xcassets */; };
 		FB685CF924046DAF00D23C03 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB685CF724046DAF00D23C03 /* LaunchScreen.storyboard */; };
-		FB685D0B24047F4600D23C03 /* SolDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB685D0A24047F4600D23C03 /* SolDescription.swift */; };
 		FB685D1024048E8F00D23C03 /* URL+Secure.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB685D0F24048E8F00D23C03 /* URL+Secure.swift */; };
-		FB685D1324048F3500D23C03 /* SolPhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB685D1224048F3500D23C03 /* SolPhotoCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FB63C43924072CFE00826AD6 /* TLCMarsSol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TLCMarsSol.h; sourceTree = "<group>"; };
+		FB63C43A24072CFE00826AD6 /* TLCMarsSol.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TLCMarsSol.m; sourceTree = "<group>"; };
+		FB63C43C24072D5200826AD6 /* TLCMarsCamera.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TLCMarsCamera.h; sourceTree = "<group>"; };
+		FB63C43D24072D5200826AD6 /* TLCMarsCamera.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TLCMarsCamera.m; sourceTree = "<group>"; };
 		FB685CE924046DAE00D23C03 /* TLCAstronomy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TLCAstronomy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB685CEC24046DAE00D23C03 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FB685CEE24046DAE00D23C03 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -27,9 +31,7 @@
 		FB685CF524046DAF00D23C03 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FB685CF824046DAF00D23C03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FB685CFA24046DAF00D23C03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FB685D0A24047F4600D23C03 /* SolDescription.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolDescription.swift; sourceTree = "<group>"; };
 		FB685D0F24048E8F00D23C03 /* URL+Secure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URL+Secure.swift"; sourceTree = "<group>"; };
-		FB685D1224048F3500D23C03 /* SolPhotoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolPhotoCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,7 +96,10 @@
 		FB685D0224046E4100D23C03 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				FB685D0A24047F4600D23C03 /* SolDescription.swift */,
+				FB63C43924072CFE00826AD6 /* TLCMarsSol.h */,
+				FB63C43A24072CFE00826AD6 /* TLCMarsSol.m */,
+				FB63C43C24072D5200826AD6 /* TLCMarsCamera.h */,
+				FB63C43D24072D5200826AD6 /* TLCMarsCamera.m */,
 				FB685D1124048F0000D23C03 /* ViewControllers */,
 			);
 			path = Model;
@@ -103,7 +108,6 @@
 		FB685D1124048F0000D23C03 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				FB685D1224048F3500D23C03 /* SolPhotoCollectionViewCell.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -180,12 +184,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FB685D1324048F3500D23C03 /* SolPhotoCollectionViewCell.swift in Sources */,
 				FB685D1024048E8F00D23C03 /* URL+Secure.swift in Sources */,
 				FB685CF124046DAE00D23C03 /* ViewController.swift in Sources */,
-				FB685D0B24047F4600D23C03 /* SolDescription.swift in Sources */,
 				FB685CED24046DAE00D23C03 /* AppDelegate.swift in Sources */,
 				FB685CEF24046DAE00D23C03 /* SceneDelegate.swift in Sources */,
+				FB63C43B24072CFE00826AD6 /* TLCMarsSol.m in Sources */,
+				FB63C43E24072D5200826AD6 /* TLCMarsCamera.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
