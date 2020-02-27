@@ -18,6 +18,7 @@ NS_SWIFT_NAME(MarsSol)
 @property (nonatomic, readonly) NSNumber *idNumber;
 @property (nonatomic, readonly) NSNumber *sol;
 @property (nonatomic, readonly, copy) NSString *imageURL;
+@property (nonatomic, readonly) TLCMarsCamera *camera;
 @property (nonatomic, readonly) NSDate *earthDate;
 
 -(instancetype) initWithIdNumber:(NSNumber *)idNumber
@@ -27,6 +28,8 @@ NS_SWIFT_NAME(MarsSol)
                        earthDate:(NSDate *)earthDate;
 
 -(instancetype) initWithDictionary:(NSDictionary *)dictionary;
+
++(NSDateFormatter *) dateFormatter;
 
 @end
 

@@ -9,6 +9,14 @@
 /* Begin PBXBuildFile section */
 		FB63C43B24072CFE00826AD6 /* TLCMarsSol.m in Sources */ = {isa = PBXBuildFile; fileRef = FB63C43A24072CFE00826AD6 /* TLCMarsSol.m */; };
 		FB63C43E24072D5200826AD6 /* TLCMarsCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = FB63C43D24072D5200826AD6 /* TLCMarsCamera.m */; };
+		FB63C440240737BA00826AD6 /* LambdaSDK in Resources */ = {isa = PBXBuildFile; fileRef = FB63C43F240737B900826AD6 /* LambdaSDK */; };
+		FB63C44A2407814D00826AD6 /* TLCHeaderFile.m in Sources */ = {isa = PBXBuildFile; fileRef = FB63C4492407814D00826AD6 /* TLCHeaderFile.m */; };
+		FB63C44C2407817F00826AD6 /* Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB63C44B2407817F00826AD6 /* Header.swift */; };
+		FB63C44F240781A700826AD6 /* MarsMissionManifest.m in Sources */ = {isa = PBXBuildFile; fileRef = FB63C44E240781A700826AD6 /* MarsMissionManifest.m */; };
+		FB63C452240783F300826AD6 /* TLCCache.m in Sources */ = {isa = PBXBuildFile; fileRef = FB63C451240783F300826AD6 /* TLCCache.m */; };
+		FB63C4562407852F00826AD6 /* TLCManifestFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = FB63C4552407852F00826AD6 /* TLCManifestFetcher.m */; };
+		FB63C4592407863C00826AD6 /* TLCSolFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = FB63C4582407863C00826AD6 /* TLCSolFetcher.m */; };
+		FB63C45B2407894100826AD6 /* Operations in Resources */ = {isa = PBXBuildFile; fileRef = FB63C45A2407894100826AD6 /* Operations */; };
 		FB685CED24046DAE00D23C03 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB685CEC24046DAE00D23C03 /* AppDelegate.swift */; };
 		FB685CEF24046DAE00D23C03 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB685CEE24046DAE00D23C03 /* SceneDelegate.swift */; };
 		FB685CF124046DAE00D23C03 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB685CF024046DAE00D23C03 /* ViewController.swift */; };
@@ -23,6 +31,21 @@
 		FB63C43A24072CFE00826AD6 /* TLCMarsSol.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TLCMarsSol.m; sourceTree = "<group>"; };
 		FB63C43C24072D5200826AD6 /* TLCMarsCamera.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TLCMarsCamera.h; sourceTree = "<group>"; };
 		FB63C43D24072D5200826AD6 /* TLCMarsCamera.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TLCMarsCamera.m; sourceTree = "<group>"; };
+		FB63C43F240737B900826AD6 /* LambdaSDK */ = {isa = PBXFileReference; lastKnownFileType = folder; path = LambdaSDK; sourceTree = "<group>"; };
+		FB63C442240737D200826AD6 /* NSURL+NSURL_CARUsingHTTPS.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSURL+NSURL_CARUsingHTTPS.m"; sourceTree = "<group>"; };
+		FB63C443240737D200826AD6 /* NSURL+NSURL_CARUsingHTTPS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSURL+NSURL_CARUsingHTTPS.h"; sourceTree = "<group>"; };
+		FB63C444240737D200826AD6 /* URL+Secure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URL+Secure.swift"; sourceTree = "<group>"; };
+		FB63C4492407814D00826AD6 /* TLCHeaderFile.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TLCHeaderFile.m; sourceTree = "<group>"; };
+		FB63C44B2407817F00826AD6 /* Header.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Header.swift; sourceTree = "<group>"; };
+		FB63C44D240781A700826AD6 /* MarsMissionManifest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MarsMissionManifest.h; sourceTree = "<group>"; };
+		FB63C44E240781A700826AD6 /* MarsMissionManifest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MarsMissionManifest.m; sourceTree = "<group>"; };
+		FB63C450240783F300826AD6 /* TLCCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TLCCache.h; sourceTree = "<group>"; };
+		FB63C451240783F300826AD6 /* TLCCache.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TLCCache.m; sourceTree = "<group>"; };
+		FB63C4542407852F00826AD6 /* TLCManifestFetcher.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TLCManifestFetcher.h; sourceTree = "<group>"; };
+		FB63C4552407852F00826AD6 /* TLCManifestFetcher.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TLCManifestFetcher.m; sourceTree = "<group>"; };
+		FB63C4572407863C00826AD6 /* TLCSolFetcher.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TLCSolFetcher.h; sourceTree = "<group>"; };
+		FB63C4582407863C00826AD6 /* TLCSolFetcher.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TLCSolFetcher.m; sourceTree = "<group>"; };
+		FB63C45A2407894100826AD6 /* Operations */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Operations; sourceTree = "<group>"; };
 		FB685CE924046DAE00D23C03 /* TLCAstronomy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TLCAstronomy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB685CEC24046DAE00D23C03 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FB685CEE24046DAE00D23C03 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -45,6 +68,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FB63C441240737D200826AD6 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				FB63C442240737D200826AD6 /* NSURL+NSURL_CARUsingHTTPS.m */,
+				FB63C443240737D200826AD6 /* NSURL+NSURL_CARUsingHTTPS.h */,
+				FB63C444240737D200826AD6 /* URL+Secure.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		FB63C4532407850D00826AD6 /* ModelController */ = {
+			isa = PBXGroup;
+			children = (
+				FB63C4542407852F00826AD6 /* TLCManifestFetcher.h */,
+				FB63C4552407852F00826AD6 /* TLCManifestFetcher.m */,
+				FB63C4572407863C00826AD6 /* TLCSolFetcher.h */,
+				FB63C4582407863C00826AD6 /* TLCSolFetcher.m */,
+			);
+			path = ModelController;
+			sourceTree = "<group>";
+		};
 		FB685CE024046DAE00D23C03 = {
 			isa = PBXGroup;
 			children = (
@@ -64,11 +108,14 @@
 		FB685CEB24046DAE00D23C03 /* TLCAstronomy */ = {
 			isa = PBXGroup;
 			children = (
+				FB63C4532407850D00826AD6 /* ModelController */,
 				FB685D0224046E4100D23C03 /* Model */,
 				FB685D0124046DFF00D23C03 /* Storyboard */,
 				FB685D0024046DC400D23C03 /* Support */,
 				FB685CF524046DAF00D23C03 /* Assets.xcassets */,
 				FB685CFA24046DAF00D23C03 /* Info.plist */,
+				FB63C441240737D200826AD6 /* Extensions */,
+				FB63C43F240737B900826AD6 /* LambdaSDK */,
 			);
 			path = TLCAstronomy;
 			sourceTree = "<group>";
@@ -89,6 +136,7 @@
 			children = (
 				FB685CF724046DAF00D23C03 /* LaunchScreen.storyboard */,
 				FB685CF224046DAE00D23C03 /* Main.storyboard */,
+				FB63C45A2407894100826AD6 /* Operations */,
 			);
 			path = Storyboard;
 			sourceTree = "<group>";
@@ -96,11 +144,17 @@
 		FB685D0224046E4100D23C03 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				FB63C44D240781A700826AD6 /* MarsMissionManifest.h */,
+				FB63C44E240781A700826AD6 /* MarsMissionManifest.m */,
 				FB63C43924072CFE00826AD6 /* TLCMarsSol.h */,
 				FB63C43A24072CFE00826AD6 /* TLCMarsSol.m */,
 				FB63C43C24072D5200826AD6 /* TLCMarsCamera.h */,
 				FB63C43D24072D5200826AD6 /* TLCMarsCamera.m */,
+				FB63C450240783F300826AD6 /* TLCCache.h */,
+				FB63C451240783F300826AD6 /* TLCCache.m */,
+				FB63C44B2407817F00826AD6 /* Header.swift */,
 				FB685D1124048F0000D23C03 /* ViewControllers */,
+				FB63C4492407814D00826AD6 /* TLCHeaderFile.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -171,9 +225,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB63C440240737BA00826AD6 /* LambdaSDK in Resources */,
 				FB685CF924046DAF00D23C03 /* LaunchScreen.storyboard in Resources */,
 				FB685CF624046DAF00D23C03 /* Assets.xcassets in Resources */,
 				FB685CF424046DAE00D23C03 /* Main.storyboard in Resources */,
+				FB63C45B2407894100826AD6 /* Operations in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -184,11 +240,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB63C4562407852F00826AD6 /* TLCManifestFetcher.m in Sources */,
+				FB63C44C2407817F00826AD6 /* Header.swift in Sources */,
 				FB685D1024048E8F00D23C03 /* URL+Secure.swift in Sources */,
 				FB685CF124046DAE00D23C03 /* ViewController.swift in Sources */,
 				FB685CED24046DAE00D23C03 /* AppDelegate.swift in Sources */,
+				FB63C452240783F300826AD6 /* TLCCache.m in Sources */,
 				FB685CEF24046DAE00D23C03 /* SceneDelegate.swift in Sources */,
 				FB63C43B24072CFE00826AD6 /* TLCMarsSol.m in Sources */,
+				FB63C4592407863C00826AD6 /* TLCSolFetcher.m in Sources */,
+				FB63C44F240781A700826AD6 /* MarsMissionManifest.m in Sources */,
+				FB63C44A2407814D00826AD6 /* TLCHeaderFile.m in Sources */,
 				FB63C43E24072D5200826AD6 /* TLCMarsCamera.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

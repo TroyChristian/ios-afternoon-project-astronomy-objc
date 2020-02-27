@@ -12,6 +12,14 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface TLCMarsCamera : NSObject
 
+@property (nonatomic, copy) NSString *name;
+@property (nonatomic, copy) NSString *fullName;
+
+-(instancetype) initWithName:(NSString *)name
+                    fullName:(NSString *)fullName;
+
+-(instancetype) initWithDictionary: (NSDictionary *)dictionary;
+
 @end
 
 NS_ASSUME_NONNULL_END
